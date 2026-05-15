@@ -12,5 +12,6 @@
 MIT License  
 
 ## 参考来源
-配置来源参考 [https://github.com/v2fly/v2ray-examples/tree/master/VLESS-TCP-TLS-WS%20(recommended)](https://github.com/v2fly/v2ray-examples/tree/master/VLESS-TCP-TLS-WS%20(recommended))  
-支持内核 [Mundo Connect](https://668993.xyz)  
+- 配置来源参考 [https://github.com/v2fly/v2ray-examples/tree/master/VLESS-TCP-TLS-WS%20(recommended)](https://github.com/v2fly/v2ray-examples/tree/master/VLESS-TCP-TLS-WS%20(recommended))  
+- 支持内核 [Mundo Connect](https://668993.xyz)  
+- JSAPI参考 [https://668993.xyz/mundojs-api.html](https://668993.xyz/mundojs-api.html)  
