@@ -1,6 +1,6 @@
-# Anyray **Real** Dynamic Protocol
+# Anyray Real Dynamic Protocol
 
-本项目是 Anyray 的 xhttp、WebSocket 服务端与客户端实现脚本。  
+本项目是 Anyray 的 xhttp、WebSocket 服务端与客户端实现脚本以及Mundo Connect的动态分流脚本示例仓库。  
 
 ## 功能特性
 
