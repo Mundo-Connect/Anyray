@@ -6,7 +6,8 @@
 
 *   **协议支持**：实现 Xray 的 XHTTP 协议和传统V2ray的WebSocket协议，支持 V2ray WebSocket 与 AnyTLS WebSocket 传输。
 *   **安全特性**：支持 Reality、ECH 等功能（详见文档）。
-*   **传输扩展**：支持 HTTP/2、HTTP/3 及流量 Padding 混淆。
+*   **传输扩展**：支持 HTTP/2、HTTP/3 及流量 Padding。
+*   **动态重载**：随时重载所有脚本，并且实时生效。
 
 ## 开源协议
 MIT License  
