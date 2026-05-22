@@ -26,8 +26,6 @@
     '+.als.baidu.com'
   ];
 
-  const availableProxies = [];
-
   function normalizeDomain(domain) {
     return String(domain || '').trim().toLowerCase().replace(/\.$/, '');
   }
@@ -66,7 +64,7 @@
   }
 
   mundo.registerHook('onProxiesLoaded', (context) => {
-    availableProxies.length = 0;
+    const availableProxies = [];
 
     const proxies = Array.isArray(context.proxies) ? context.proxies : [];
     for (let i = 0; i < proxies.length; i++) {
@@ -80,7 +78,12 @@
       });
     }
 
+    mundo.global.proxies = availableProxies;
     mundo.log('route-demo', 'loaded proxies:', availableProxies.map((proxy) => proxy.tag).join(','));
+  });
+
+  mundo.registerHook('onDisconnected', () => {
+    delete mundo.global.proxies;
   });
 
   mundo.registerHook('onDns', (context) => {
